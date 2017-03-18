@@ -32,7 +32,7 @@ My style.
 ### Selectors
 * Prevent use of universal selector
 * Only use !important for specific cases;
-  ```
+  ```css
     red-text-color {
       color: red !important;
     }
