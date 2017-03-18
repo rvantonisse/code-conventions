@@ -32,11 +32,11 @@ My style.
 ### Selectors
 * Prevent use of universal selector
 * Only use !important for specific cases;
-```
-  red-text-color {
-    color: red !important;
-  }
-```
+  ```
+    red-text-color {
+      color: red !important;
+    }
+  ```
 
 
 ### Whitespace
