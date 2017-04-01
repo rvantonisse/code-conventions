@@ -1,0 +1,25 @@
+{
+  "name": "code-conventions",
+  "version": "1.0.0",
+  "description": "Code conventions and linter configurations",
+  "main": "README.md",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rvantonisse/code-conventions.git"
+  },
+  "keywords": [
+    "conventions",
+    "css",
+    "js",
+    "html"
+  ],
+  "author": "RV Antonisse",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rvantonisse/code-conventions/issues"
+  },
+  "homepage": "https://github.com/rvantonisse/code-conventions#readme"
+}
