@@ -5,9 +5,10 @@
   "rules": {
     "order/properties-order": [
       [
+        "display",
         {
+          "order": "flexible",
           "properties": [
-            "display",
             "visibility",
             "opacity",
             "overflow",
@@ -80,7 +81,6 @@
           "properties": [
             "background",
             "box-shadow",
-            "vertical-align",
           ],
         },
         "animation",
@@ -91,19 +91,23 @@
         "unspecified": "bottom",
       },
     ],
-    "block-closing-brace-newline-before": "always",
     "block-no-empty": true,
-    "block-opening-brace-newline-after": "always",
     "color-hex-case": "lower",
     "color-hex-length": "short",
     "comment-empty-line-before": "always",
     "comment-whitespace-inside": "always",
+    "declaration-block-no-duplicate-properties": [
+      true,
+      {
+        "ignore": "consecutive-duplicates-with-different-values",
+      },
+    ],
     "declaration-block-semicolon-newline-after": "always",
     "declaration-block-semicolon-newline-before": "never-multi-line",
     "declaration-block-single-line-max-declarations": [
       0,
       {
-        "message": "Writing consistent styles: No single-line declarations.",
+        "message": "Unexpected single-line declaration: write multi-line declarations.",
       },
     ],
     "declaration-block-semicolon-space-before": "never",
@@ -138,7 +142,7 @@
       true,
       {
         "severity": "warning",
-        "message": "Element's id should not be used as selector, use a class- or tag-selector instead. (selector-no-id)",
+        "message": "Unexpected id-selector, use class- or tag-selectors instead. (selector-no-id)",
       },
     ],
     "selector-no-universal": [

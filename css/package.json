@@ -1,0 +1,27 @@
+{
+  "name": "css-conventions",
+  "version": "1.0.0",
+  "description": "css conventions with stylelint",
+  "main": "README.md",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rvantonisse/code-conventions.git"
+  },
+  "keywords": [
+    "css",
+    "conventions",
+    "stylelint"
+  ],
+  "author": "RV Antonisse",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rvantonisse/code-conventions/issues"
+  },
+  "homepage": "https://github.com/rvantonisse/code-conventions#readme",
+  "dependencies": {
+    "stylelint-order": "^0.4.3"
+  }
+}
