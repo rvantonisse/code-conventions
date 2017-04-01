@@ -8,8 +8,23 @@ body {
 }
 
 /* classnames */
-.class-selector {
+
+/* kebab-case */
+.class {
   content: "Content";
+}
+
+.long-class {
+  display: none;
+}
+
+/* CamelCase */
+.Class {
+  display: none;
+}
+
+.LongClass {
+  display: none;
 }
 
 /* IDnames */
@@ -130,4 +145,19 @@ h1 {
 
 .declaration-line-4 { /* Max 3 lines of whitespace between declarations */
   display: none;
+}
+
+
+/* Less and Sass */
+
+/* Mixins */
+
+/* Sass */
+@mixin BorderRadius($radius) {
+  border-radius: $radius;
+}
+
+/* Less */
+.BorderRadius(@radius) {
+  border-radius: @radius;
 }
